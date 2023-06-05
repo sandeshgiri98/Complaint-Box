@@ -1,0 +1,170 @@
+body{
+    margin:0; 
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background : rgb(246, 241, 241);
+    height: 100vh;
+    overflow: hidden;
+    
+}
+/* .users{
+    padding: 15px;
+    background-color: darkgrey;
+    margin-top: 0;
+    margin-left: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.3rem;
+    text-align: center;
+    background: rgb(154, 154, 154);
+    width: 100%;
+    display: flex;
+    justify-content:flex-start;
+    padding: 4px;
+    gap: 27vw;
+} */
+.logo{
+    width: 86px;
+    height: auto;
+}
+/* h2{
+    
+} */
+
+
+.center{
+    position: absolute;
+    top: 55%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: rgb(0, 149, 255);
+    border-radius: 10px;
+}
+.center h1{
+    color: rgb(246, 241, 241);
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 3.5px solid rgb(246, 241, 241);
+ }
+.center form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+form .textfield{
+    position: relative;
+    border-bottom: 2px solid rgb(246, 241, 241);
+    margin: 30px 0;
+}
+.textfield input{
+    width: 100%;
+    padding:  0 5px;
+    height: 40px;
+    border: 1px;
+    background: none;
+    outline: none;
+
+} 
+
+.textfield label
+{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: rgb(246, 241, 241);
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+}
+.textfield span::before{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    /* width: 320px;
+    height: 2px;
+    background: rgb(0, 0, 0); */
+}
+.textfield input:focus ~ label,
+.textfield input:valid ~ label{
+    top: -5px;
+    color: rgb(246, 241, 241);
+}
+.textfield input:focus ~ label,
+.textfield input:valid ~ label{
+width: 100%;
+}
+.pass{
+    margin: -5px 0 20px 5px;
+    color: rgb(246, 241, 241);
+    text-align: center;
+}
+.pass:hover{
+    text-decoration: underline;
+}
+input[type="submit"]{
+    width: 100%;
+    height: 50px;
+    border: rgb(246, 241, 241);
+    border-radius: 25px;
+    font-size: 18px;
+    color: rgb(0, 149, 255);
+    font-weight: 700;
+    cursor: pointer;
+    outline: none ;
+
+}
+input[type="submit"]:hover{
+    box-shadow: 2px 2px rgb(0, 0, 0);
+}
+input[type="submit"]:active {
+    /* border-color:rgb(0, 0, 0);
+    transition: 2.5s; */
+    box-shadow: 5px 5px rgb(51, 51, 51);
+}
+.signup{
+    text-decoration: none;
+    margin: 30px 0;
+    text-align: center;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    
+
+}
+.signup a{
+    color: rgb(255, 241, 220);
+    text-decoration: none;
+}
+.signup a:hover{
+    text-decoration: underline;
+}
+
+
+/* .photo
+{
+    width: 80px;
+    height: 80px;
+    background-color:rgb(246, 241, 241);
+    border-radius: 50%;
+    border-style: solid;
+    border-color:black;
+    position: absolute;
+    top: -70px;
+    left: 40%;
+    overflow: hidden;
+}
+.photo:hover{
+     border-bottom-color: rgb(0, 149, 255);;
+    border-inline-start-color: rgb(250, 143, 4);;
+    border-top-color: rgb(250, 143, 4);
+    border-inline-end-color: rgb(250, 143, 4);; 
+   
+}
+.marque{
+    background-color: dimgray;
+    color: white;
+    padding: 8px;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+} */
